@@ -1,0 +1,106 @@
+header nav ul li a {
+  font-weight: 400;
+  font-size: 17px;
+  color: #636060;
+  text-decoration: none;
+  margin-right: 50px;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 33px;
+}
+
+.main-pic-div {
+  background-image: url("./img/discover\ greece\ pic.png");
+  height: 606px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 31px;
+}
+
+.main-pic-p1 {
+  font-weight: 700;
+  font-size: 79px;
+  color: #ffffff;
+}
+
+.main-pic-p2 {
+  font-weight: 400;
+  font-size: 19px;
+  color: #ffffff;
+}
+
+.discover-box {
+  width: 235px;
+  margin-right: 83px;
+}
+
+.discover-p1 {
+  font-weight: 400;
+  font-size: 17px;
+  color: #636060;
+}
+
+.discover-p2 {
+  font-weight: 400;
+  font-size: 28px;
+  color: #010101;
+  margin-top: 9px;
+}
+.discover-p3 {
+  font-weight: 400;
+  font-size: 20px;
+  color: #636060;
+  margin-top: 37px;
+}
+
+footer {
+  margin-bottom: 140px;
+  margin-top: 84px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 98px;
+}
+
+.box {
+  width: 286px;
+  margin-left: 33px;
+  margin-bottom: 56px;
+}
+
+.box img {
+  width: 286px;
+  height: 195px;
+}
+
+.box-p1 {
+  margin-top: 23px;
+  color: #343232;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.box-p2 {
+  margin-top: 9px;
+  color: #636060;
+  font-size: 18px;
+  font-weight: 400;
+}
